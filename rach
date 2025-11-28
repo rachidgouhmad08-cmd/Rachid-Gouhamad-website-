@@ -1,0 +1,7 @@
+console.log('Welcome to my website!');
+
+const magicBtn = document.getElementById('magicBtn');
+
+magicBtn.addEventListener('click', () => {
+    alert('Magic is happening! You clicked the button!');
+});
